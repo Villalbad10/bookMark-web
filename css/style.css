@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+:root {
+    --prmario: hsl(231, 69%, 60%);
+    --Red: hsl(0, 94%, 66%);
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Rubik', sans-serif;
+}
+
+header {
+    margin-top: 2rem;
+}
+
+
+
+.enlaces {
+    opacity: 25;
+    display: flex;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+li {
+    margin-right: 3rem;
+}
+
+.btnMenu:hover {
+    background-color: white;
+    color: var(--Red);
+    border: 2px solid var(--Red);
+}
+
+
+.sectionUno {
+    margin-top: 3rem;
+    align-items: center;
+}
+
+.info h1,
+p {
+    text-align: center;
+}
+
+.info h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 2.3rem;
+    margin-bottom: 2rem;
+}
+
+.info p {
+    width: 85%;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.btns {
+    text-align: center;
+}
+
+.btnPri {
+    background-color: var(--prmario);
+    border: none;
+    border-radius: 0.3rem;
+    font-family: 'Rubik';
+    color: white;
+    height: 2.5rem;
+    width: 10rem;
+}
+
+.btnPri:hover {
+    background-color: white;
+    border: 2px solid var(--prmario);
+    border-radius: 0.3rem;
+    font-family: 'Rubik';
+    color: var(--prmario);
+    height: 2.5rem;
+    width: 10rem;
+}
+
+.btnSec {
+    background-color: #f7f7f7;
+    border: none;
+    border-radius: 0.3rem;
+    font-family: 'Rubik';
+    color: rgb(75, 75, 75);
+    height: 2.5rem;
+    width: 10rem;
+    margin-left: .5rem;
+    font-weight: 500;
+}
+
+.btnSec:hover {
+    background-color: #f7f7f7;
+    border: 2px solid rgb(75, 75, 75);
+    border-radius: 0.3rem;
+    font-family: 'Rubik';
+    color: rgb(75, 75, 75);
+    height: 2.5rem;
+    width: 10rem;
+    margin-left: .5rem;
+    font-weight: 500;
+}
+
+.barra {
+    background-image: url('../img/barra.svg');
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: 13rem;
+    margin-bottom: 2rem;
+}
+
+.features {
+    margin-top: 8rem;
+    text-align: center;
+}
+
+.features p {
+    color: rgb(163, 163, 163);
+    margin-top: 2rem;
+    width: 80%;
+    margin: 2rem auto;
+    font-family: 'Rubik';
+}
+
+.horizontal {
+    margin: 2rem auto;
+    width: 70%;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: 'Rubik';
+    font-size: 1.2rem;
+}
+
+.men {
+    border-top: 0.8px solid rgb(206, 206, 206);
+    border-bottom: 0.8px solid rgb(206, 206, 206);
+    padding: .7rem;
+}
+
+#menActive {
+    border-bottom: 3px solid var(--Red);
+    font-weight: bolder;
+}
+
+.menRed:hover {
+    cursor: pointer;
+    color: var(--Red);
+}
+
+.men:hover {
+    border-bottom: 3px solid var(--Red);
+}
+
+.menBarra {
+    background-image: url('../img/barra.svg');
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    background-position-x: 11rem;
+}
+
+.menImg {
+    transform: rotate(180deg);
+}
+
+.bookmark {
+    margin-top: 2rem;
+    text-align: center;
+    font-family: 'Rubik';
+}
+
+.bookmark h3 {
+    font-weight: 600;
+}
+
+.bookmark p {
+    margin-left: 3rem;
+    margin-right: 3.5rem;
+}
+
+.more {
+    background-color: var(--prmario);
+    border: none;
+    border-radius: 0.3rem;
+    font-family: 'Rubik';
+    color: white;
+    padding: 0.6rem;
+}
+
+.download {
+    margin-top: 9rem;
+    text-align: center;
+}
+
+.download p {
+    color: rgb(163, 163, 163);
+    margin-top: 2rem;
+    width: 80%;
+    margin: 2rem auto;
+    font-family: 'Rubik';
+}
+
+.navegadores {
+    text-align: center;
+}
+
+.tarjeta {
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    width: 16rem;
+    box-shadow: 10px 43px 64px -29px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 43px 64px -29px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 43px 64px -29px rgba(0, 0, 0, 0.75);
+}
+
+.tarjeta img {
+    margin-top: 3rem;
+}
+
+.tarjeta h4 {
+    margin-top: 2rem;
+    font-family: 'Rubik';
+}
+
+.tarjeta p {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: 'Rubik';
+}
+
+.tarjeta hr {
+    border-top: 5px dotted var(--prmario);
+    margin-bottom: 1.9rem;
+    background-color: white;
+}
+
+.extension {
+    background-color: var(--prmario);
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.8rem;
+    color: white;
+    font-family: 'Rubik';
+    margin-bottom: 1.5rem;
+}
+
+.extension:hover {
+    background-color: white;
+    color: var(--prmario);
+    border: 2px solid var(--prmario);
+}
+
+.acordion {
+    display: block;
+    margin: 1rem auto;
+}
+
+.itemAcor:hover {
+    color: var(--Red);
+}
+
+footer {
+    margin-top: 8rem;
+    background-color: var(--prmario);
+    text-align: center;
+    color: white;
+}
+
+footer p {
+    font-size: .9rem;
+    letter-spacing: 0.3rem;
+}
+
+form input {
+    height: 2.5rem;
+    border-radius: 0.3rem;
+    border: none;
+    margin-top: 1rem;
+    width: 80%;
+}
+
+form button {
+    margin-top: .8rem;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: var(--Red);
+    color: white;
+    padding: .8rem;
+    margin-bottom: 1.5rem;
+    width: 80%;
+}
+
+form button:hover {
+    background-color: white;
+    color: var(--Red);
+    border: 2px solid var(--Red);
+}
+
+footer section {
+    display: flex;
+    align-items: center;
+    background-color: #242946;
+}
+
+footer section .container {
+    text-align: justify;
+}
+
+footer section .container label {
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-right: 3rem;
+}
+footer section .container label:hover {
+    color: var(--Red);
+}
+
+.face {
+    margin-right: 6rem;
+}
+
+.face img {
+    margin-right: 1rem;
+}
+
+@media(min-width: 900px) {
+    .enlaces {
+        background-color: #ffffff;
+        display: flex;
+        justify-content: end;
+        font-family: 'Rubik', sans-serif;
+    }
+
+    .barra {
+        order: 1;
+    }
+
+    .info h1 {
+        font-size: 2.5rem;
+    }
+
+    .info p,
+    h1 {
+        margin-left: 20%;
+        font-family: 'Rubik', sans-serif;
+        margin-bottom: 2rem;
+    }
+
+    .info h1,
+    p {
+        text-align: left;
+    }
+
+    .features {
+        margin: 0 auto;
+        width: 60%;
+        margin-top: 4rem;
+    }
+
+    .features p {
+        text-align: center;
+    }
+
+    .men {
+        border-top: 0px solid rgb(206, 206, 206);
+        border-bottom: 0.8px solid rgb(206, 206, 206);
+        padding: .7rem;
+    }
+
+    #menActive {
+        border-bottom: 3px solid var(--Red);
+        font-weight: bolder;
+    }
+
+    .bookmark {
+        margin-top: 10rem;
+        text-align: justify;
+        font-family: 'Rubik';
+    }
+
+    .bookmark p {
+        width: 60%;
+        margin-left: 0rem;
+        margin-right: 3.5rem;
+    }
+
+    .download {
+        margin-top: 8rem;
+    }
+
+    .download p {
+        margin: 0 auto;
+        width: 50%;
+        text-align: center;
+    }
+
+    .firefox {
+        margin-top: 3.5rem;
+    }
+
+    .opera {
+        margin-top: 5rem;
+    }
+
+    .acordion {
+        width: 55%;
+    }
+
+    footer h2 {
+        margin: 1rem auto;
+        width: 35%;
+    }
+
+    footer section {
+        display: flex;
+        height: 4rem;
+        align-items: center;
+        background-color: #242946;
+    }
+
+
+    form input {
+        width: 30%;
+        height: 2.5rem;
+        border-radius: 0.3rem;
+        border: none;
+        margin-top: 1rem;
+    }
+
+    form button {
+        width: 10%;
+        margin-top: .8rem;
+        border: none;
+        border-radius: 0.3rem;
+        background-color: var(--Red);
+        color: white;
+        padding: .6rem;
+        margin-bottom: 2.5rem;
+    }
+
+}
